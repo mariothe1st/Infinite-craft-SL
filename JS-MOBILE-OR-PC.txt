@@ -1,5 +1,12 @@
 All the code listed below are for use on mostly mobile as I also made a chrome extension for pc
-Please note that copy and pasting each of the codes directly in the url bar will remove the 'javascript:' which must be added manually for it to work!
+
+Instructions:
+1.Go to the infinite craft website
+2.Choose the code you want to use ( Load / Save )
+3.Paste the code that you chose to use
+**Please note that copy and pasting each of the codes directly in the url bar will remove the 'javascript:' which must be added manually for it to work!\
+4.Profit.
+
 
 Code that saves the save as a json file:
 

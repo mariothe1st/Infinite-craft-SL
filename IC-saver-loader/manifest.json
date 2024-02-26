@@ -1,0 +1,31 @@
+{
+    "manifest_version": 2,
+    "name": "Infinite Craft Loader / Saver",
+    "version": "1.0",
+    "description": "An extension that saves / loads an infinite craft session",
+    "permissions": [
+      "storage",
+      "activeTab",
+      "downloads"
+    ],
+    "browser_action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+      }
+    },
+    "icons": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    },
+    "content_scripts": [
+      {
+        "matches": ["https://neal.fun/infinite-craft/*"],
+        "js": ["content.js"]
+      }
+    ]
+  }
+  

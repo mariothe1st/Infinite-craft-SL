@@ -1,6 +1,7 @@
 # Infinite-craft-SL
 
 Instructions for Mobile:
+\n
 Go into the txt file and the instructions will be in there.
 
 Instructions for PC:

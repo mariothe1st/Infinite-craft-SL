@@ -10,6 +10,7 @@ While mobile users can use the instructions provided in the text file, PC users 
 3. Click on "Load unpacked" and select the "IC-saver-loader" folder (which you can clone/download from this repository).
 4. Visit the Infinite Craft website.
 5. Use the extension to enhance your experience. It's simple and easy to use!
+6. Profit.
 
 ## Contributing
 We welcome contributions to Infinite-craft-SL! Whether it's bug fixes, feature enhancements, or documentation improvements, your contributions are valuable. Feel free to fork this repository, make your changes, and submit a pull request.

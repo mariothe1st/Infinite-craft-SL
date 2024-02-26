@@ -1,0 +1,48 @@
+All the code listed below are for use on mostly mobile as I also made a chrome extension for pc
+Please note that copy and pasting each of the codes directly in the url bar will remove the 'javascript:' which must be added manually for it to work!
+
+Code that saves the save as a json file:
+
+javascript:(function() {
+    var localStorageContent = JSON.stringify(localStorage);
+    var blob = new Blob([localStorageContent], { type: 'application/json' });
+    var a = document.createElement('a');
+    a.download = 'IC-Save.json';
+    a.href = window.URL.createObjectURL(blob);
+    a.dataset.downloadurl = ['application/json', a.download, a.href].join(':');
+    a.click();
+})();
+
+
+Code that loads the saved json file:
+
+javascript:(function() {
+    var input = document.createElement('input');
+    input.type = 'file';
+    input.accept = 'application/json';
+
+    input.onchange = function(event) {
+        var file = event.target.files[0];
+        if (!file) return;
+
+        var reader = new FileReader();
+        reader.onload = function(event) {
+            try {
+                var localStorageContent = JSON.parse(event.target.result);
+                for (var key in localStorageContent) {
+                    if (localStorageContent.hasOwnProperty(key)) {
+                        localStorage.setItem(key, localStorageContent[key]);
+                    }
+                }
+                alert('localStorage loaded successfully!');
+            } catch (error) {
+                console.error('Error loading localStorage:', error);
+                alert('Error loading localStorage!');
+            }
+        };
+        reader.readAsText(file);
+    };
+
+    input.click();
+})();
+

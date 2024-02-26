@@ -2,7 +2,7 @@
 Please refer to the instructions provided in the "JS-MOBILE-OR-PC.txt" file for mobile users.
 
 ## PC Instructions
-While mobile users can use the instructions provided in the text file, PC users may find it cumbersome to copy and paste the instructions. To streamline the process, we've developed a Chrome extension.
+While mobile users can use the instructions provided in the text file, PC users may find it cumbersome to copy and paste the code given in the instructions. To streamline the process, I've developed a Chrome extension.
 
 ### Chrome Extension Installation Instructions
 1. Open Chrome and navigate to chrome://extensions.

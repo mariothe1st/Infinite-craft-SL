@@ -1,10 +1,9 @@
 # Infinite-craft-SL
 
-Instructions for Mobile:
-\n
+#Instructions for Mobile:
 Go into the txt file and the instructions will be in there.
 
-Instructions for PC:
+#Instructions for PC:
 
 You can use the mobile txt aswell but its a pain in the ass to copy and paste it all over again....
 
